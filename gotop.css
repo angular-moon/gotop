@@ -1,0 +1,15 @@
+#gotop{ 
+	display:none; 
+	width:54px;
+	height:54px;
+	position:fixed;  
+	z-index:1000;
+	bottom:50px;  
+	right:100px; 
+ 	border-radius:10px 10px 10px 10px; 
+	text-decoration:none; 
+	cursor: pointer;
+	background: url(img/go_top.png) no-repeat;
+	font-size: 0px;
+	zoom: 1;
+}
