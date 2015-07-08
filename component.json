@@ -17,7 +17,7 @@
             release: false
         },
          {
-            reg: /^\/\.*$/,
+            reg: /^\/\..*$/,
             release: false
         }
     ]
