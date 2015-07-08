@@ -1,7 +1,6 @@
 /*
  * 回到页面顶部
  */
- //@require bootstrap
 $(function(){
 	
 	if($("#gotop").size() == 0)
@@ -24,9 +23,7 @@ $(function(){
 		event.preventDefault();
 		$("html,body").animate({scrollTop:"0px"}, speed);
 	});
-
-    window.goTop = function(){
-        $("#gotop").click();
-    }
-
+	
 });
+
+return function(){$("#gotop").click();};
