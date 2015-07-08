@@ -1,6 +1,7 @@
 /*
  * 回到页面顶部
  */
+ //@require bootstrap
 $(function(){
 	
 	if($("#gotop").size() == 0)
