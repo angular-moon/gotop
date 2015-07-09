@@ -10,15 +10,5 @@
         "gotop.js": {
             "deps": ["jquery"]
         }
-    },
-    "mapping": [
-        {
-            reg: /^\/README\.md$/,
-            release: false
-        },
-         {
-            reg: /^\/\..*$/,
-            release: false
-        }
-    ]
+    }
 }
