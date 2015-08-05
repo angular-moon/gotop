@@ -4,11 +4,12 @@
     "name": "gotop",
     "main": "gotop.js",
     "dependencies": [
-        "jquery@^1.8.3"
+        "jquery@^1.8.3",
+        "css"
     ],
     "shim": {
         "gotop.js": {
-            "deps": ["jquery"]
+            "deps": ["jquery","css!gotop.css"]
         }
     }
 }
