@@ -26,4 +26,8 @@ $(function(){
 
 });
 
-return function(){$("#gotop").click();};
+//选择器或者距离页面顶部的高度
+return function(where){
+	var top = where ? (parseInt(where) || $(where).offset().top) : 0;
+	$("html,body").animate({scrollTop:top+"px"}, 300);
+};
